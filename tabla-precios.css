@@ -11,3 +11,6 @@ p{
     margin: 0 auto;
     width: 90%;
 }
+.flex{
+    display: flex;
+}
