@@ -24,6 +24,7 @@ p{
     padding: 10 px;
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 10px 10px 5px #888;
 }
 .precio{
     font-size: 50px;
