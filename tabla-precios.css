@@ -13,6 +13,7 @@ p{
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 .text-center{
     text-align: center;
@@ -22,9 +23,11 @@ p{
     color: #333;
     border: 1px solid #333;
     padding: 10 px;
-    margin: 10px;
+    margin: 0 auto;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #888;
+    width: 23%;
+    box-sizing: border-box;
 }
 .precio{
     font-size: 50px;
@@ -43,4 +46,16 @@ p{
 }
 .btn_precio:hover{
     background: rgb(247,100,84);
+}
+@media (max-width: 1070 px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20 px;
+    }
+}
+@media (max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20 px;
+    }
 }
