@@ -31,3 +31,16 @@ p{
     color: #00dac7;
 
 }
+.btn_precio{
+    background: salmon;
+    display:block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3 px;
+    margin-bottom: 10 px;    
+
+}
+.btn_precio:hover{
+    background: rgb(247,100,84);
+}
