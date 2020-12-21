@@ -23,6 +23,7 @@ p{
     border: 1px solid #333;
     padding: 10 px;
     margin: 10px;
+    border-radius: 10px;
 }
 .precio{
     font-size: 50px;
